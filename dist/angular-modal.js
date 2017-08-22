@@ -1,5 +1,5 @@
 ;(function() {
-	var app = angular.module('angular-modal', []);
+	var app = angular.module('ngModal', []);
 	app.directive('kopModal', function (modalService) {
 		  return {
 		    restrict: 'A',
