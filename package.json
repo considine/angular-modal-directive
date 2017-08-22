@@ -1,0 +1,26 @@
+{
+  "name": "angular-modal-directive",
+  "version": "1.0.0",
+  "description": "Angular module for inserting modals into an angularJS project without copying and pasting boiler plate bootstrap code. It also couples the modal launcher with the modal content.",
+  "main": "dist/angular-modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/considine/angular-modal-directive.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angular",
+    "modals",
+    "bootstrap",
+    "javascript"
+  ],
+  "author": "Jack Considine <jackconsidine3@gmail.com> (jackconsidine.wordpress.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/considine/angular-modal-directive/issues"
+  },
+  "homepage": "https://github.com/considine/angular-modal-directive#readme"
+}
