@@ -3,7 +3,25 @@
 	app.directive('kopModal', function (modalService) {
 		  return {
 		    restrict: 'A',
-		    templateUrl : '/templates/generalModalD.html',
+		    template : 
+		    	'  <div class="modal fade" id="{{modalId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				    <div class="modal-dialog" role="document">
+				      <div class="modal-content">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				          <h4 class="modal-title">{{modaltitle}}</h4>
+				        </div>
+				        <div class="modal-body">
+				          <div ng-transclude> </div>
+				        </div>
+				        <div class="modal-footer">
+				          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				          <button type="button" class="btn btn-primary">Save changes</button>
+				        </div>
+				      </div>
+				    </div>
+				  </div>'
+		    ,
 		    transclude : true,
 		    scope: true,
 		    link: function(scope, element, attr) {
