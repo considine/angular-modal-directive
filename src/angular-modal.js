@@ -25,9 +25,7 @@
 	    angular.element(document.querySelector('kop-modal'))
 	  }
 
-	  this.closeKopModals = function () {
-	  	angular.element(document.querySelector("kop-modal .modal")).modal("hide");
-	  }
+	 
 
 	});
 })();
